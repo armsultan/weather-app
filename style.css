@@ -1,0 +1,60 @@
+* {
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+            text-align: center;
+}
+
+
+.grid {
+  border: solid 1px #e7e7e7;
+}
+
+.grid_row {
+  display: flex;
+}
+
+.grid_item {
+  flex: 1;
+  padding: 12px;
+  border: solid 1px #e7e7e7;
+}
+
+.grid_item-12 {
+  flex: 1;
+  padding: 12px;
+  border: solid 1px #e7e7e7;
+}
+
+.locationInput {
+ width: 80%;
+}
+
+.search{
+     width: 20%;
+
+    
+}
+
+input,
+button {
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 100%;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 1px solid #DDD;
+    box-shadow: inset #fff, #FFF;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    /* Align elements nicely:  */
+    vertical-align: bottom;
+    vertical-align: top;
+}
+
+.wind {
+    background-color: lightblue;
+}
+
+.weather {
+    background-color: lightblue;
+}
